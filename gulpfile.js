@@ -26,7 +26,7 @@ gulp.task('browser-sync', function() {
   gulp.task('images', function(){
     gulp.src('project-name/src/images/**/*')
       .pipe(cache(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true })))
-      .pipe(gulp.dest('./build/images/'));
+      .pipe(gulp.dest('project-name/build/images/'));
   });
 
   gulp.task('styles', function(){
