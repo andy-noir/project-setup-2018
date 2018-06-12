@@ -60,7 +60,7 @@ gulp.task('browser-sync', function() {
     }))
     .pipe(gulp.dest('project-name/build/js/'))
     .pipe(rename({suffix: '.min'}))
-    .pipe(uglify()) // FIX!
+    .pipe(uglify())
     .pipe(gulp.dest('project-name/build/js/'))
     .pipe(browserSync.reload({stream:true}))
   });
