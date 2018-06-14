@@ -19,11 +19,23 @@ folder/
 │   │   │  └──styles.scss
 │   └── index.html
 └── node_modules/
-└── .gitignore
+└── .gitignore 
+└── .eslintrc.js
 └── readme.md
 └── gulpfile.js
 └── package.json
 └── package-lock.json
 ```
 
-```  npm i --save-dev gulp gulp-plumber gulp-rename gulp-autoprefixer gulp-concat gulp-uglify gulp-imagemin gulp-cache gulp-csso gulp-sass browser-sync gulp-babel babel-core babel-preset-env ```
+```
+git init
+npm init
+```
+
+```  npm i --save-dev gulp gulp-plumber gulp-rename gulp-autoprefixer gulp-concat gulp-uglify gulp-imagemin gulp-cache gulp-csso gulp-sass browser-sync gulp-babel babel-core babel-preset-env eslint
+```
+
+```
+.\node_modules\.bin\eslint --init under Windows
+./node_modules/.bin/eslint --init under Linux and Mac
+```

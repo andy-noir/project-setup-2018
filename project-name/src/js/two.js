@@ -7,4 +7,8 @@
 // }
 
 
-var blue = document.getElementById("blue").innerHTML = "Hello";
+const blue = document.getElementById('blue').innerHTML = 'Hello';
+
+
+
+

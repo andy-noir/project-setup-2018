@@ -1,17 +1,17 @@
 .one {
-    height: 100px;
-    width: 100px;
-    background: red;
+  height: 100px;
+  width: 100px;
+  background: red;
+  &-one {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    background: yellow;
+    transform: rotate(45deg);
     &-one {
-        height: 50px;
-        width: 50px;
-        display: flex;
-        background: yellow;
-        transform: rotate(45deg);
-        &-one {
-            height: 20px;
-            width: 20px;
-            background: pink;
-        }
+      height: 20px;
+      width: 20px;
+      background: pink;
     }
+  }
 }
